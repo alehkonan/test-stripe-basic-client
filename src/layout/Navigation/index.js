@@ -12,9 +12,7 @@ export const Navigation = () => {
   return (
     <Navbar bg="primary" variant="dark">
       <Container>
-        <Navbar.Brand>
-          A simple store with stripe and useShoppingCart hook
-        </Navbar.Brand>
+        <Navbar.Brand>Stripe basic</Navbar.Brand>
         <Nav className="gap-2 align-items-center">
           <NavLink to="/">Home</NavLink>
           <NavLink to="/cart">
